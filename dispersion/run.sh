@@ -1,0 +1,4 @@
+python calc_snr.py bbh_samples.h5 -a ../asd/CE40km_1p5MW_Aplus_coat_strain.txt -d ../detector_configurations/bilby/CE40.ifo  --minimum-frequency 5  --mode-array "2,2" "3,2" "3,3" "4,4" -N 1000 -n CE40km_1p5MW_Aplus_coat_flow_5
+python calc_snr.py bbh_samples.h5 -a ../asd/CE40km_1p5MW_Aplus_coat_strain.txt -d ../detector_configurations/bilby/CE40.ifo  --minimum-frequency 7  --mode-array "2,2" "3,2" "3,3" "4,4" -N 1000 -n CE40km_1p5MW_Aplus_coat_flow_7
+python calc_snr.py bbh_samples.h5 -a ../asd/CE40km_1p5MW_Aplus_coat_strain.txt -d ../detector_configurations/bilby/CE20.ifo  --minimum-frequency 5  --mode-array "2,2" "3,2" "3,3" "4,4" -N 1000 -n CE20km_1p5MW_Aplus_coat_flow_5
+python calc_snr.py bbh_samples.h5 -a ../asd/Aplus_asd.txt -l -d ../detector_configurations/bilby/A1.ifo  --minimum-frequency 5  --mode-array "2,2" "3,2" "3,3" "4,4"  -N 1000 -n A1
